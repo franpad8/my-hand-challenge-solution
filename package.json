@@ -1,0 +1,29 @@
+{
+  "name": "my-hand-challenge-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "npx mocha --require ts-node/register './*.spec.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franpad8/my-hand-challenge-solution.git"
+  },
+  "author": "franpad8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franpad8/my-hand-challenge-solution/issues"
+  },
+  "homepage": "https://github.com/franpad8/my-hand-challenge-solution#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "standard": "^17.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
